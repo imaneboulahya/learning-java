@@ -1,6 +1,7 @@
 public class Animal {
     private int poids;
     private String nom;
+    public abstract void manger();
     public Animal(int poids){
         this.poids = poids;
     }

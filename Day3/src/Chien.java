@@ -11,6 +11,10 @@ public class Chien extends Animal{
         this.maitre = maitre;
     }
     @Override
+    public void manger(){
+        System.out.println("Le chien mange du Pal");
+    }
+    @Override
     public String toString(){
         return super.toString()+", maitre = "+maitre;
     }

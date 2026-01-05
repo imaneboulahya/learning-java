@@ -4,7 +4,8 @@ public class Main {
         Animal animal1 = new Animal(2, "miki");
         Chien ch2 = new Chien(10, "mich", "imane");
         Chien ch3 = new Chien(7, "mimi", "imane");
-        Animal [] animaux = {ch1, ch2,ch3, animal1};
+        Chat chat1 = new Chat("miami", 3, "hiho");
+        Animal [] animaux = {ch1, ch2,ch3, animal1, chat1};
         for (Animal a : animaux){
             System.out.println(a);
         }
